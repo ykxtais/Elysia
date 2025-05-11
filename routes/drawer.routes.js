@@ -13,14 +13,14 @@ export default function DrawerRoutes() {
     <Drawer.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#523687',
+          backgroundColor: '#82d1c5',
         },
         headerTintColor: '#fff',
         drawerStyle: {
           backgroundColor: '#bdbdbd',
           width: 200,
         },
-        drawerActiveTintColor: '#523687',
+        drawerActiveTintColor: '#024d60',
         drawerInactiveTintColor: '#333',
       }}
     >
