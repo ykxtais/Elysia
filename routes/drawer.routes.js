@@ -13,7 +13,7 @@ export default function DrawerRoutes() {
     <Drawer.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#82d1c5',
+          backgroundColor: '#307b8e',
         },
         headerTintColor: '#fff',
         drawerStyle: {
@@ -21,7 +21,7 @@ export default function DrawerRoutes() {
           width: 200,
         },
         drawerActiveTintColor: '#024d60',
-        drawerInactiveTintColor: '#333',
+        drawerInactiveTintColor: '#222',
       }}
     >
       <Drawer.Screen name="Home" component={TabRoutes} />
