@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <ImageBackground
-        source={require('../img/moun.jpg')}
-        style={styles.img}
+        source={require('../img/inicial.jpg')}
+        style={styles.imgHome}
         resizeMode="cover"
       >
         <View style={styles.overlay}>
@@ -15,25 +15,26 @@ export default function Home() {
       </ImageBackground>
 
       <View style={styles.content}>
-        <Text style={styles.subTitle}>
-          Sobre
-        </Text>
+        <Text style={styles.subTitle}>Inovação</Text>
 
         <View style={styles.columns}>
           <View style={styles.column}>
             <Text style={styles.text}>
-              Lorem lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem
+              Com Elysia, você tem acesso a dados em tempo real sobre a ocupação das vagas e a localização das motos. {`\n`}
+              Nossa tecnologia de ponta garante agilidade e precisão na gestão dos pátios.
             </Text>
             <Image
-              source={require('../img/fototeste.jpg')}
-              style={styles.imgAdit}
+              source={require('../img/motohome.jpg')}
+              style={styles.imgMotoh}
               resizeMode="cover"
             />
           </View>
 
           <View style={styles.column}>
             <Text style={styles.text}>
-              Lorem
+              A Elysia utiliza sensores e visão computacional para capturar dados em tempo real.
+              Essa tecnologia permite detectar automaticamente a ocupação das vagas e localizar motos. {`\n`}
+              Adaptável e escalável, ela acompanha o crescimento da operação sem comprometer a performance.
             </Text>
           </View>
         </View>
@@ -45,9 +46,9 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
-    backgroundColor: '#f6fafd',
+    backgroundColor: '#191c1a',
   },
-  img: {
+  imgHome: {
     width: '100%',
     height: 220,
     justifyContent: 'flex-end',
@@ -67,7 +68,8 @@ const styles = StyleSheet.create({
   },
   subTitle: {
     fontSize: 20,
-    color: '#103a57',
+    fontStyle: 'italic',
+    color: '#17d117',
     textAlign: 'center',
     marginBottom: 20,
     fontWeight: '600',
@@ -82,10 +84,10 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 16,
-    color: '#333',
+    color: '#fff',
     lineHeight: 22,
   },
-  imgAdit: {
+  imgMotoh: {
     width: '100%',
     height: 120,
     marginTop: 12,
