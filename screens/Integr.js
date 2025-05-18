@@ -1,82 +1,91 @@
-import { View, Text, StyleSheet, Image, ScrollView } from "react-native";
+import { View, Text, StyleSheet, Image } from 'react-native';
 
 export default function Integr() {
   return (
     <View style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollContent}>
-
-        <View style={styles.imgSide}>
-          <View style={styles.imgAlign}>
-            <Image source={require("../img/1.jpg")} style={styles.imgIntegr} />
-            <Text style={styles.name}>Taís</Text>
-          </View>
-          <View style={styles.imgAlign}>
-            <Image source={require("../img/2.jpg")} style={styles.imgIntegr} />
-            <Text style={styles.name}>Iris</Text>
-          </View>
+      <View style={styles.integrColumn}>
+        <View style={styles.imgAlign}>
+          <Image source={require('../img/1.jpg')} style={styles.imgIntegr} />
+          <Text style={styles.name}>Taís</Text>
         </View>
+        <View style={styles.imgAlign}>
+          <Image source={require('../img/2.jpg')} style={styles.imgIntegr} />
+          <Text style={styles.name}>Iris</Text>
+        </View>
+        <Image source={require('../img/moto.jpg')} style={styles.imgMoto} />
+      </View>
 
-        <Image source={require("../img/div.jpg")} style={styles.divider} />
-
-        <View style={styles.centralized}>
+      <View style={styles.textColumn}>
+        <Image source={require('../img/fundo.jpg')} style={styles.imgBack} />
+        <View style={styles.overlay}>
           <Text style={styles.textTeam}>
-            Somos a equipe por trás de Elysia
+            Somos a equipe por trás da Elysia — comprometida em entregar soluções inteligentes.
+            Cada integrante traz uma expertise única, unindo conhecimento em visão computacional,
+            desenvolvimento de software e análise de dados para tornar a Elysia uma plataforma eficiente.
           </Text>
         </View>
-      </ScrollView>
-
-      <Image source={require("../img/flores.jpg")} style={styles.imgFlowers} />
+      </View>
     </View>
   );
 }
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f6fafd",
+    flexDirection: 'row',
   },
-  scrollContent: {
-    paddingBottom: 200,
+  integrColumn: {
+    flex: 1,
+    backgroundColor: '#000',
+    alignItems: 'center',
+    paddingTop: 40,
+    paddingBottom: 20,
+    justifyContent: 'flex-start',
   },
-  imgSide: {
-    flexDirection: "row",
-    justifyContent: "space-evenly",
-    paddingTop: 30,
+  textColumn: {
+    flex: 2,
+    position: 'relative',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  imgBack: {
+    ...StyleSheet.absoluteFillObject,
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+  },
+  overlay: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 20,
   },
   imgAlign: {
-    alignItems: "center",
+    alignItems: 'center',
+    marginBottom: 20,
   },
   imgIntegr: {
-    width: 140,
-    height: 140,
-    borderRadius: 5,
-    marginBottom: 8,
+    width: 110,
+    height: 110,
+    borderRadius: 10,
   },
   name: {
-    color: "#103a57",
     marginTop: 8,
-    fontWeight: "bold",
-    textAlign: "center",
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#17d117',
+    textAlign: 'center',
   },
-  divider: {
-    width: "100%",
-    height: 45,
-    resizeMode: "cover",
-    marginVertical: 30,
-  },
-  centralized: {
-    alignItems: "center",
-    paddingHorizontal: 30,
+  imgMoto: {
+    width: 140,
+    height: 140,
+    resizeMode: 'contain',
+    marginTop: 20,
   },
   textTeam: {
-    color: "#333",
-    fontSize: 18,
-    textAlign: "center",
-  },
-  imgFlowers: {
-    width: 420,
-    height: 200,
-    resizeMode: "cover",
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#fff',
+    textAlign: 'center',
+    lineHeight: 25,
   },
 });
