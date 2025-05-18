@@ -13,18 +13,22 @@ export default function DrawerRoutes() {
     <Drawer.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#307b8e',
+          backgroundColor: '#0cb012',
         },
-        headerTintColor: '#fff',
+        headerTintColor: '#000',
         drawerStyle: {
           backgroundColor: '#bdbdbd',
           width: 200,
         },
-        drawerActiveTintColor: '#024d60',
+        drawerActiveTintColor: '#215721',
         drawerInactiveTintColor: '#222',
       }}
     >
-      <Drawer.Screen name="Home" component={TabRoutes} />
+      <Drawer.Screen
+      name="InícioTab"
+      component={TabRoutes}
+      options={{ title: 'Início' }}
+      />
       <Drawer.Screen name="Integrantes" component={Integr} />
       <Drawer.Screen name="Tecnologia" component={Tecno} />
       <Drawer.Screen name="Diferenciais" component={Difer} />

@@ -25,10 +25,10 @@ export default function TabRoutes() {
 
           return <Ionicons name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: '#fff',
-        tabBarInactiveTintColor: '#cdcdcd',
+        tabBarActiveTintColor: '#0f3310',
+        tabBarInactiveTintColor: '#446645',
         tabBarStyle: {
-          backgroundColor: '#307b8e',
+          backgroundColor: '#0cb012',
           height: 65,
           paddingBottom: 5,
           paddingTop: 5,
