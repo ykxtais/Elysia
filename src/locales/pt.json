@@ -1,0 +1,29 @@
+{
+  "auth": {
+    "bemVindo": "Bem-vindo",
+    "criarConta": "Criar conta",
+    "nome": "Nome",
+    "email": "E-mail",
+    "senha": "Senha",
+    "login": "Entrar",
+    "cadastrar": "Cadastrar",
+    "logout": "Sair",
+    "jaPossui": "Já possui uma conta?",
+    "naoPossui": "Não possui uma conta?"
+  },
+  "common": {
+    "home": "Início",
+    "mapa": "Mapa",
+    "tech": "Tecnologia",
+    "perfil": "Perfil",
+    "carregando": "Carregando..."
+  },
+  "errors": {
+    "obrigatorio": "Preencha todos os campos.",
+    "desconhecido": "Ocorreu um erro."
+  },
+  "comum": {
+    "fechar": "Fechar",
+    "salvar": "Salvar"
+  }
+}
