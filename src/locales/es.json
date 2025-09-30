@@ -70,5 +70,25 @@
     "cadastroMsg": "Tu cuenta ha sido creada con éxito.",
     "loginTitulo": "Inicio de sesión",
     "loginMsg": "Has iniciado sesión correctamente."
+  },
+    "motovaga": {
+    "moto": "Moto",
+    "vaga": "Plaza",
+    "motoSub": "Registra y gestiona las motos",
+    "vagaSub": "Registra y gestiona las plazas",
+
+    "cadastrarMoto": "Registrar moto",
+    "editarMoto": "Editar moto",
+    "cadastrarVaga": "Registrar plaza",
+    "editarVaga": "Editar plaza",
+
+    "placa": "Placa",
+    "marca": "Marca",
+    "modelo": "Modelo",
+    "ano": "Año",
+
+    "status": "Estado",
+    "numero": "Número",
+    "patio": "Patio"
   }
 }
