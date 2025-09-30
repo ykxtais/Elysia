@@ -38,5 +38,13 @@
     "paragrafoRImg": "Nuestra plataforma combina visión por computadora y sensores para capturar datos en tiempo real, permitiendo análisis más precisos y la automatización de procesos críticos del patio.",
     "colunaA": "Arquitectura escalable, preparada para picos de tráfico y expansión de cámaras/dispositivos sin pérdida de rendimiento. Integración simple con servicios existentes.",
     "colunaB": "Modelos actualizados continuamente, monitoreo de calidad y métricas transparentes. Seguridad y privacidad por defecto en todo el pipeline."
+  },
+    "mapa": {
+    "marcacao": "Marcación",
+    "marcacoes": "Marcaciones",
+    "toqueParaAdicionar": "Toque en el mapa para agregar marcaciones.",
+    "abrir": "Abrir",
+    "fechar": "Cerrar",
+    "limpar": "Borrar"
   }
 }

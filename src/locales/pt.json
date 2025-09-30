@@ -38,5 +38,13 @@
     "paragrafoRImg": "Nossa plataforma combina visão computacional e sensores para capturar dados em tempo real, permitindo análises mais precisas e automação de processos críticos do pátio.",
     "colunaA": "Arquitetura escalável, preparada para picos de tráfego e expansão de câmeras/dispositivos sem perda de desempenho. Integração simples com serviços existentes.",
     "colunaB": "Modelos continuamente atualizados, monitoramento de qualidade e métricas transparentes. Segurança e privacidade por padrão em todo o pipeline."
+  },
+    "mapa": {
+    "marcacao": "Marcação",
+    "marcacoes": "Marcações",
+    "toqueParaAdicionar": "Toque no mapa para adicionar marcações.",
+    "abrir": "Abrir",
+    "fechar": "Fechar",
+    "limpar": "Limpar"
   }
 }
