@@ -46,5 +46,29 @@
     "abrir": "Abrir",
     "fechar": "Fechar",
     "limpar": "Limpar"
+  },
+    "perfil": {
+    "titulo": "Meu perfil",
+    "trocarFoto": "Trocar foto",
+    "fotoAtualizada": "Foto atualizada!",
+    "nome": "Nome",
+    "salvarNome": "Salvar nome",
+    "nomeAtualizado": "Nome atualizado!",
+    "email": "E-mail",
+    "sair": "Sair",
+    "excluirConta": "Excluir conta",
+    "excluirTitulo": "Excluir conta",
+    "excluirMsg": "Tem certeza? Esta ação é permanente.",
+    "excluirConfirmar": "Excluir",
+    "cancelar": "Cancelar",
+    "permissaoFotos": "Precisamos de permissão para acessar suas fotos.",
+    "requerReautenticacao": "Por segurança, faça login novamente para concluir esta ação.",
+    "confirmar": "Confirmar senha"
+  },
+  "notify": {
+    "cadastroTitulo": "Cadastro realizado",
+    "cadastroMsg": "Sua conta foi criada com sucesso.",
+    "loginTitulo": "Login realizado",
+    "loginMsg": "Você entrou com sucesso."
   }
 }
