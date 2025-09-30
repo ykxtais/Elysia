@@ -32,5 +32,11 @@
     "paragrafoR": "Elysia utiliza sensores y visión por computadora para capturar datos en tiempo real. Esta tecnología permite detectar automáticamente la ocupación de las plazas y localizar motos.\nAdaptable y escalable, acompaña el crecimiento de la operación sin comprometer el rendimiento.",
     "escalavel": "Escalable",
     "gestaoInteligente": "Gestión Inteligente"
+  },
+    "tecno": {
+    "titulo": "Tecnología",
+    "paragrafoRImg": "Nuestra plataforma combina visión por computadora y sensores para capturar datos en tiempo real, permitiendo análisis más precisos y la automatización de procesos críticos del patio.",
+    "colunaA": "Arquitectura escalable, preparada para picos de tráfico y expansión de cámaras/dispositivos sin pérdida de rendimiento. Integración simple con servicios existentes.",
+    "colunaB": "Modelos actualizados continuamente, monitoreo de calidad y métricas transparentes. Seguridad y privacidad por defecto en todo el pipeline."
   }
 }
