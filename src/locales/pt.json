@@ -25,5 +25,12 @@
   "comum": {
     "fechar": "Fechar",
     "salvar": "Salvar"
+  },
+    "home": {
+    "subtitulo": "Gestão de Pátios",
+    "paragrafoL": "Com Elysia, você tem acesso a dados em tempo real sobre a ocupação das vagas e a localização das motos.\nNossa tecnologia de ponta garante agilidade e precisão na gestão dos pátios.",
+    "paragrafoR": "A Elysia utiliza sensores e visão computacional para capturar dados em tempo real. Essa tecnologia permite detectar automaticamente a ocupação das vagas e localizar motos.\nAdaptável e escalável, ela acompanha o crescimento da operação sem comprometer a performance.",
+    "escalavel": "Escalável",
+    "gestaoInteligente": "Gestão Inteligente"
   }
 }
