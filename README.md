@@ -35,8 +35,8 @@ src/
 
 ## 1. Clone e navegue para a pasta do repositório
 ```
-git clone https://github.com/ykxtais/Elysia.git
-cd Elysia
+https://github.com/ykxtais/Elysia-mobile.git
+cd Elysia-mobile
 ```
  
 ## 2. Instale as dependências
