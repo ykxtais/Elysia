@@ -16,6 +16,20 @@ maior controle operacional.
 - Maps
 - Notifications
 - Flexbox + componentização
+
+## 🗂 Arquitetura
+```
+src/
+  components/        # BtnContext, BtnLanguage.
+  context/           # ThemeContext, LanguageContext
+  firebase/          # firebaseConfig
+  locales/           # pt, es
+  notifications/     # notify
+  routes/            # AppNavigator, Drawer.routes
+  screens/           # Home, Mapa, MotoVaga, Perfil, Perfil, Tecno                  auth/ Login, Register
+  services/          # api, i18n, motoVagaApi
+  utils/             # authErrors
+```
  
 ## ☑️ Executar o Projeto
 
