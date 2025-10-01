@@ -63,7 +63,9 @@
     "cancelar": "Cancelar",
     "permissaoFotos": "Necesitamos permiso para acceder a tus fotos.",
     "requerReautenticacao": "Por seguridad, inicia sesión nuevamente para completar esta acción.",
-    "confirmar": "confirmar contraseña"
+    "confirmar": "confirmar contraseña",
+    "informeSenha": "Confirma tu contraseña",
+    "senhaAtual": "Contraseña actual"
   },
   "notify": {
     "cadastroTitulo": "Registro realizado",
